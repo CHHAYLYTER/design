@@ -1,0 +1,12 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    font-size: 3rem;
+}
+.MenuBar{
+    padding-right: 4rem;
+    height: 65rem;
+    color: #fff;
+    margin-right: 2rem;
+    background-color: rgba(7, 0, 86, 0.84);
+}

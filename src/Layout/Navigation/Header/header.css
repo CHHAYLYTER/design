@@ -1,0 +1,32 @@
+.header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: #fff;
+    -webkit-box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.05);
+            box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.05);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 2rem 9%;
+  }
+  
+  .header .logo {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #130f40;
+  }
+  
+  .header .logo i {
+    padding-right: .5rem;
+    color: #27ae60;
+  }
